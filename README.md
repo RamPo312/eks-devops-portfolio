@@ -32,13 +32,11 @@ It covers the full lifecycle from application development to automated deploymen
 
 ## Screenshots
 
-## Screenshots
-
 ### 🔹 Application Running
-![App](https://raw.githubusercontent.com/RamPo312/eks-devops-portfolio/main/screenshots/app-running.png)
+![App](screenshots/app-running.png)
 
 ### 🔹 Kubernetes Pods
-![Pods](Screenshots/pods.png)
+![Pods](screenshots/pods.png)
 
 ### 🔹 Kubernetes Service (LoadBalancer)
 ![Service](screenshots/service.png)
