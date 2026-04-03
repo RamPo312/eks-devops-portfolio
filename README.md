@@ -32,6 +32,24 @@ It covers the full lifecycle from application development to automated deploymen
 
 ## Screenshots
 
+### 🔹 Application Running
+![App](screenshots/app-running.png)
+
+### 🔹 Kubernetes Pods
+![Pods](screenshots/pods.png)
+
+### 🔹 Kubernetes Service (LoadBalancer)
+![Service](screenshots/service.png)
+
+### 🔹 GitHub Actions CI/CD Pipeline
+![CI/CD](screenshots/github-actions.png)
+
+### 🔹 Docker Hub Image
+![Docker](screenshots/dockerhub.png)
+
+### 🔹 AWS EKS Cluster
+![EKS](screenshots/eks.png)
+
 
 
 ---
@@ -42,3 +60,52 @@ It covers the full lifecycle from application development to automated deploymen
 ```bash
 git clone https://github.com/RamPo312/eks-devops-portfolio.git
 cd eks-devops-portfolio
+
+---
+
+## Commands Used
+
+# =========================
+#  Git & GitHub Commands
+# =========================
+git clone https://github.com/RamPo312/eks-devops-portfolio.git
+cd eks-devops-portfolio
+git status
+git add .
+git commit -m "updated project"
+git push origin main
+
+
+# =========================
+#  Docker Commands
+# =========================
+docker build -t <dockerhub-username>/eks-devops-app:v1 ./app
+docker login
+docker push <dockerhub-username>/eks-devops-app:v1
+docker images
+docker run -p 5000:5000 <dockerhub-username>/eks-devops-app:v1
+
+
+# =========================
+#  Terraform Commands
+# =========================
+terraform init
+terraform validate
+terraform plan
+terraform apply
+terraform destroy
+
+
+# =========================
+#  Kubernetes (EKS) Commands
+# =========================
+aws eks update-kubeconfig --region us-east-1 --name eks-devops-cluster
+kubectl get nodes
+kubectl apply -f k8s/deployment.yaml
+kubectl apply -f k8s/service.yaml
+kubectl get pods
+kubectl get svc
+kubectl describe pod <pod-name>
+kubectl logs <pod-name>
+kubectl delete -f k8s/deployment.yaml
+kubectl delete -f k8s/service.yaml
