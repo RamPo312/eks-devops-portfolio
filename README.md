@@ -32,6 +32,8 @@ It covers the full lifecycle from application development to automated deploymen
 
 ## Screenshots
 
+## Screenshots
+
 ### 🔹 Application Running
 ![App](screenshots/app-running.png)
 
