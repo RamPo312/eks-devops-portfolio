@@ -54,16 +54,13 @@ It covers the full lifecycle from application development to automated deploymen
 
 ---
 
-## Setup Instructions
 
-### Clone Repository
+### Commands used
 ```bash
 git clone https://github.com/RamPo312/eks-devops-portfolio.git
 cd eks-devops-portfolio
 
 ---
-
-## Commands Used
 
 # =========================
 #  Git & GitHub Commands
