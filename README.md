@@ -28,32 +28,6 @@ It covers the full lifecycle from application development to automated deploymen
 - GitHub Actions
 - Python Flask
 
----
-
-## Screenshots
-
-### 🔹 Application Running
-![App](screenshots/app-running.png)
-
-### 🔹 Kubernetes Pods
-![Pods](screenshots/pods.png)
-
-### 🔹 Kubernetes Service (LoadBalancer)
-![Service](screenshots/service.png)
-
-### 🔹 GitHub Actions CI/CD Pipeline
-![CI/CD](screenshots/github-actions.png)
-
-### 🔹 Docker Hub Image
-![Docker](screenshots/dockerhub.png)
-
-### 🔹 AWS EKS Cluster
-![EKS](screenshots/eks.png)
-
-
-
----
-
 
 ### Commands used
 ```bash
